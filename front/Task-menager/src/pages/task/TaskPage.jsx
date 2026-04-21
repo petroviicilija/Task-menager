@@ -1,9 +1,9 @@
+import { EditTask } from "./EditTask"
 export function TaskPage(){
   return(
     <>
-      <div>
-        Task
-      </div>
+      <EditTask/>
+      <button>Back To Tasks</button>
     </>
   )
 }

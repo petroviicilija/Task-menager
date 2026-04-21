@@ -1,5 +1,6 @@
 .task{
   display: flex;
+  align-items: center;
   background-color: white;
   margin-bottom: 10px;
   max-width: 360px;
@@ -7,6 +8,13 @@
   padding: 15px 20px;
   border-radius: 3px;
 }
-.image-container{
+.images-container{
   margin-left: auto;
+}
+.delete-icon{
+  width: 25px;
+}
+.edit-icon{
+  width: 25px;
+  padding-right: 5px;
 }

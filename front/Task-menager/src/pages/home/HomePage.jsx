@@ -1,5 +1,5 @@
-import { TaskInput } from "../../components/TaskInput";
-import { Tasks } from "../../components/Tasks";
+import { TaskInput } from "./TaskInput";
+import { Tasks } from "./Tasks";
 
 export function HomePage(){
   return(

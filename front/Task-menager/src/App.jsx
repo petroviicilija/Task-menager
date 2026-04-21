@@ -6,12 +6,12 @@ import { TaskPage } from './pages/task/TaskPage';
 function App() {
 
   return (
-    <>
+    <div className='app-container'>
       <Routes>
         <Route index element={<HomePage />} />
         <Route path='task' element={<TaskPage />} />
       </Routes>
-    </>
+    </div>
   )
 }
 
