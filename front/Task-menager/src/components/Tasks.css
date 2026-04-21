@@ -1,0 +1,12 @@
+.task{
+  display: flex;
+  background-color: white;
+  margin-bottom: 10px;
+  max-width: 360px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+.image-container{
+  margin-left: auto;
+}
