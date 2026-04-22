@@ -7,20 +7,18 @@ export function EditTask(){
         Edit Task
       </div>
       <div className="info-container">
-        <div className="info-titles">
-          <p>Task ID</p>
-          <p>Name</p>
-          <p>Completed</p>
-        </div>
-        <div className="info-values">
-          <p>82374982380-sahd12-11qqwe1</p>
-          <p>Operi se dolje</p>
-          <input type="checkbox" />
-        </div>
+          <div className='info-title'>Task ID</div>
+          <div className='info-value'>82374982380-sahd12-11qqwe1</div>
+          <div className='info-title'>Name</div>
+          <div className='input-container'>
+            <input type="text" className='edit-input' />
+          </div>
+          <div className='info-title'>Completed</div>
+          <div>
+            <input type="checkbox" className='edit-checkbox'/>
+          </div>
       </div>
-      <div>
-          <button>Edit</button>
-        </div>
+        <button className='edit-button'>Edit</button>
     </div>
   )
 }
